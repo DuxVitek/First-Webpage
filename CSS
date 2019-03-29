@@ -1,0 +1,35 @@
+h1 {
+  color: black;
+}
+
+
+body {
+  background-color:#99e6ff;
+  color:#009900;
+  font-size:21px;
+}
+
+img {
+  image-resolution: 1080;
+}
+
+.resize {
+  width: 800px;
+  height: auto;
+}
+
+div {
+
+}
+
+.hello{
+  background: black;
+}
+
+span {
+
+}
+
+.TopSection{
+
+}
