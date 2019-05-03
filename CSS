@@ -1,35 +1,72 @@
-h1 {
-  color: black;
-}
+/* Remember . is for classes and # is for id's in CSS */
+.header-left{
+    text-align: left;
 
+}
 
 body {
-  background-color:#99e6ff;
-  color:#009900;
-  font-size:21px;
+    background-color: #dfe6e9;
+    margin: 40px; /* 40px */
+    font-family: 'Cinzel', serif;
+    line-height: 125%; /* Line spacing 120-150 */
+    max-width: calc(180em * 0.5) /* Character per line limit 45-90 */
 }
 
-img {
-  image-resolution: 1080;
-}
-
-.resize {
-  width: 800px;
-  height: auto;
-}
-
-div {
+.wrapper{
+    display: grid;
+    grid-gap: 10px; /* 10px */
+    grid-template-columns: auto auto auto;
 
 }
 
-.hello{
-  background: black;
+.grid{
+    padding: 20px; /* 20px */
+    border-radius: 5px; /* 5px */
+    font-size: 150%;
+
 }
 
-span {
+.a{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    text-align: center;
+    background-color: #6c5ce7;
 
 }
 
-.TopSection{
+.b{
+    grid-column: 3 ;
+    grid-row: 1 / 3;
+    border: 3px solid #6c5ce7;
+    
+}
+
+.c{
+    grid-column: 1 ;
+    grid-row: 2;
+    list-style-position: inside;
+    background-color: #FFC312;
+
+}
+
+.d{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #EE5A24;
+
+}
+
+.f{
+    background-color: pink;
+    grid-column: 1 / 4;
+    grid-row: 4;
+}
+
+footer{
+    background-color: #dfe6e9;
+    margin: 40px; /* 40px */
+    font-family: 'Cinzel', serif;
+    line-height: 125%; /* Line spacing 120-150 */
+    max-width: calc(180em * 0.5); /* Character per line limit 45-90 */
 
 }
